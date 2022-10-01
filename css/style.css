@@ -1,0 +1,80 @@
+*{
+margin: 0px;
+padding: 0px;
+box-sizing: border-box;
+font-family: 'Patua One', cursive;
+/* border: 1px red solid; */
+}
+header nav a{
+    text-decoration: none;
+    color: #fff;
+    display: inline;
+    width: 20%;
+    margin: 10px;
+    padding: 10px;
+    text-align: center;
+    justify-content: center;
+    /* border: 1px green solid; */
+    transition: 0.5s;
+}
+header nav a:visited{
+    color:#fff
+    
+}
+header nav a:hover{
+    color:#fff;
+    font-size:x-large;
+    border: 3px rgb(79, 54, 136) solid;
+    border-radius: 10px;
+    background-color: #33363afd;
+}
+h1{
+    text-align: center;
+    color: chocolate;
+    font-weight: 200 ;
+}
+h2{
+    text-align: center;
+}
+
+h3{
+    text-align: center;
+}
+
+p{
+    text-align: center;
+padding: 1em;
+font-size: small;
+font-weight: 100 ;
+}
+
+img
+{
+    width: 100%;
+    
+}
+
+body {
+    background-image: url(/images/FondoContainer.jpg);
+    background-size: 100%;
+    background-repeat:repeat;
+}
+
+#container-fluid {
+    background-color: #fff;
+    width: 100%;
+}
+
+.imgcontainer {
+margin: auto;
+}
+
+.col-md-4,
+.col-sm-4,
+.col-lg-4,
+.col-xl-4 {
+    /* display: flex; */
+  
+    align-items:stretch;
+
+}
